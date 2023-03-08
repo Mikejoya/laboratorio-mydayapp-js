@@ -1,5 +1,7 @@
 import "./css/base.css";
 
-import { sayHello } from "./js/utils";
+import { editTaskStatuses, name, sayHello } from "./js/utils";
 
 console.log(sayHello("Hello"));
+
+editTaskStatuses();
